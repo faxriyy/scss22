@@ -1,0 +1,43 @@
+$main-color: #E7FAFE;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: $main-color;
+    font-family: sans-serif;
+
+    header {
+        // background: gray;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px 10%;
+        border-bottom: 1px solid gray;
+    }
+
+    nav {
+
+        display: flex;
+        gap: 20px;
+
+        a {
+            color: black;
+            font-weight: bold;
+        }
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        i {
+            font-size: 30px;
+        }
+    }
+}
